@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width,initialscale=1.8">
+<head>
+    <title>Reef Guardians - Home</title>
+    <link rel="stylesheet" href="css/issue.css">
+</head>
+<body>
+<header>
+<nav>
+<img src="images/logo.png"; alt="Reef Guardians logo with half pink and blue coral"; align="right"; width="210px">
+<br>
+<br>
+<div id="navbar">
+<a href="index.html">Home</a>
+<a href="initiatives.html">Initiatives</a>
+<a href="involved.html">Get Involved</a>
+</div>
+<script>
+window.onscroll =function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")} else {navbar.classList.remove("sticky");}
+}
+</script>
+</nav>
+    <h1>Welcome to Reef Guardians</h1>
+    <h5>Our mission at Reef Guardians is to protect coral reefs and marine ecosystems from climate change</h5>
+    <button class="cta-button"><a href="https://give.coral.org/give/406853/#!/donation/checkout" target="_blank">Donate</a></button>
+    </header>
+    
+    <section id="intro">
+        <div class="myDiv">
+        <img src="images/coral-reef.jpeg"; alt="pink coral reef"; height=170px>
+        </div>
+    </section>
+    
+    <section id="take-action">
+        <h3>Why Coral Reefs Matter</h3>
+        <p>Coral reefs are not just colorful underwater landscapes; they are life-supporting ecosystems facing unprecedented threats due to climate change, pollution, and overfishing.</p>
+    </section>
+    
+    <section id="impact">
+        <h3>Our Impact</h3>
+        <div class="myDiv">
+        <img src="images/colored-reef.jpeg"; alt="colorful coral reef"; width=250px>
+        </div>
+        <p>Our initiatives focus on coral reef restoration, marine conservation, and education. We've successfully protected and restored fragile ecosystems, and we're not stopping there.</p>
+    </section>
+    
+<section id="learn-more">
+<h3>Learn More</h3>
+<p>Ready to take the plunge? Explore our website to discover our ongoing initiatives and find resources to become a guardian of our oceans. Together, we can make a profound impact and ensure that coral reefs and marine ecosystems thrive for generations to come.</p>
+</section>
+    
+    <footer>
+        <p>&copy; 2023 Reef Guardians</p>
+    </footer>
+</body>
+</html>
+
